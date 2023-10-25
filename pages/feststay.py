@@ -209,7 +209,7 @@ try:
         st.write(showdf)
 
 except Exception as e:
-    a
+    
 
     if fesname == '':
         st.warning('축제명이 입력되지 않았습니다😢')
