@@ -40,13 +40,13 @@ fes_budget=fes.groupby('시도명')['예산합계'].sum().sort_values(ascending=
 
 
 colors = sns.color_palette('hls', len(fes_budget))
-fig, ax = plt.subplots(figsize=(6, 3))
+fig, ax = plt.subplots(figsize=(10, 8))
 fes_budget.plot.bar(stacked=True, color=colors, rot=0, fontsize=10, ax=ax)
 #sns.barplot(x='시도명',data=fes_name_count, errwidth=False)
 ax.set_xlabel('', fontsize=15)
 ax.set_ylabel('축제 지역별 예산합계', fontsize=10)
 
-ax.set_title('2022년 전국 축제 예산합계', fontsize=20, pad=15)
+ax.set_title('2022년 전국 축제 예산합계', fontsize=15, pad=15)
 ax.legend(loc='upper left', fontsize=8)
 ax.grid(visible=False)
 
@@ -82,13 +82,13 @@ for i in range(len(fes_name_count)):
 
 
 colors = sns.color_palette('hls', len(fes_name_count))
-fig, ax = plt.subplots(figsize=(6, 3))
+fig, ax = plt.subplots(figsize=(10, 8))
 fes_name_count.plot.bar(stacked=True, color=colors, rot=0, fontsize=10, ax=ax)
 
 ax.set_xlabel('', fontsize=1)
 ax.set_ylabel('축제 개최 수', fontsize=10)
 
-ax.set_title('2022년 전국 축제 방문객수합계 (단위:100명)', fontsize=20, pad=15)
+ax.set_title('2022년 전국 축제 방문객수합계 (단위:100명)', fontsize=15, pad=15)
 ax.legend(loc='upper left', fontsize=15)
 ax.grid(visible=False)
 
@@ -147,11 +147,11 @@ st.write('')
 pivot_df = pivot_df[selected_categories].copy()
 
 colors = sns.color_palette('hls', len(selected_categories))
-fig, ax = plt.subplots(figsize=(6, 3))
+fig, ax = plt.subplots(figsize=(10, 8))
 pivot_df.plot.bar(stacked=True, color=colors, rot=0, fontsize=10, ax=ax)
 ax.set_xlabel('월', fontsize=15)
 ax.set_ylabel('축제 개최 수', fontsize=15)
-ax.set_title('2023년 전라남도 월별 축제 종류', fontsize=20, pad=15)
+ax.set_title('2023년 전라남도 월별 축제 종류', fontsize=15, pad=15)
 ax.legend(loc='upper left', fontsize=8)
 ax.grid(visible=False)
 
