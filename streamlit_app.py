@@ -40,7 +40,7 @@ fes_budget=fes.groupby('시도명')['예산합계'].sum().sort_values(ascending=
 
 
 colors = sns.color_palette('hls', len(fes_budget))
-fig, ax = plt.subplots(figsize=(10, 8))
+fig, ax = plt.subplots(figsize=(10, 6))
 fes_budget.plot.bar(stacked=True, color=colors, rot=0, fontsize=10, ax=ax)
 #sns.barplot(x='시도명',data=fes_name_count, errwidth=False)
 ax.set_xlabel('', fontsize=15)
@@ -82,7 +82,7 @@ for i in range(len(fes_name_count)):
 
 
 colors = sns.color_palette('hls', len(fes_name_count))
-fig, ax = plt.subplots(figsize=(10, 8))
+fig, ax = plt.subplots(figsize=(10, 6))
 fes_name_count.plot.bar(stacked=True, color=colors, rot=0, fontsize=10, ax=ax)
 
 ax.set_xlabel('', fontsize=1)
@@ -147,7 +147,7 @@ st.write('')
 pivot_df = pivot_df[selected_categories].copy()
 
 colors = sns.color_palette('hls', len(selected_categories))
-fig, ax = plt.subplots(figsize=(10, 8))
+fig, ax = plt.subplots(figsize=(10, 6))
 pivot_df.plot.bar(stacked=True, color=colors, rot=0, fontsize=10, ax=ax)
 ax.set_xlabel('월', fontsize=15)
 ax.set_ylabel('축제 개최 수', fontsize=15)
