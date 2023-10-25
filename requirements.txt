@@ -66,3 +66,6 @@ watchdog==3.0.0
 wheel==0.41.2
 wordcloud==1.9.2
 zipp==3.17.0
+folium==0.14.0
+streamlit-folium==0.15.0
+
