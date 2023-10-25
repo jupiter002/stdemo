@@ -6,7 +6,7 @@ backcall==0.2.0
 beautifulsoup4==4.12.2
 blinker==1.6.3
 bokeh==3.3.0
-Bottleneck @ file:///C:/Windows/Temp/abs_3198ca53-903d-42fd-87b4-03e6d03a8381yfwsuve8/croots/recipe/bottleneck_1657175565403/work
+#Bottleneck @ file:///C:/Windows/Temp/abs_3198ca53-903d-42fd-87b4-03e6d03a8381yfwsuve8/croots/recipe/bottleneck_1657175565403/work
 branca==0.6.0
 bs4==0.0.1
 cachetools==5.3.1
@@ -31,10 +31,10 @@ image==1.5.33
 importlib-metadata==6.8.0
 importlib-resources==6.0.1
 ipython==8.16.1
-JayDeBeApi @ file:///tmp/build/80754af9/jaydebeapi_1601401763009/work
+#JayDeBeApi @ file:///tmp/build/80754af9/jaydebeapi_1601401763009/work
 jedi==0.19.1
 Jinja2==3.1.2
-JPype1 @ file:///C:/b/abs_1f92quvzzn/croot/jpype1_1674515186799/work
+#JPype1 @ file:///C:/b/abs_1f92quvzzn/croot/jpype1_1674515186799/work
 jsonschema==4.19.1
 jsonschema-specifications==2023.7.1
 kiwisolver==1.4.5
@@ -47,14 +47,14 @@ matplotlib==3.8.0
 matplotlib-inline==0.1.6
 mdurl==0.1.2
 mkl-fft==1.3.6
-mkl-random @ file:///C:/Users/dev-admin/mkl/mkl_random_1682977971003/work
+#mkl-random @ file:///C:/Users/dev-admin/mkl/mkl_random_1682977971003/work
 mkl-service==2.4.0
-numexpr @ file:///C:/b/abs_afm0oewmmt/croot/numexpr_1683221839116/work
-numpy @ file:///C:/b/abs_f6napi3n6e/croot/numpy_and_numpy_base_1691091651337/work
+#numexpr @ file:///C:/b/abs_afm0oewmmt/croot/numexpr_1683221839116/work
+#numpy @ file:///C:/b/abs_f6napi3n6e/croot/numpy_and_numpy_base_1691091651337/work
 oauthlib==3.2.2
 outcome==1.2.0
-packaging @ file:///C:/b/abs_28t5mcoltc/croot/packaging_1693575224052/work
-pandas @ file:///C:/miniconda3/conda-bld/pandas_1692299636855/work
+#packaging @ file:///C:/b/abs_28t5mcoltc/croot/packaging_1693575224052/work
+#pandas @ file:///C:/miniconda3/conda-bld/pandas_1692299636855/work
 parso==0.8.3
 pickleshare==0.7.5
 Pillow==10.0.1
