@@ -140,9 +140,6 @@ st.write('')
 st.write('')
 st.write('')
 st.write('')
-st.write('')
-st.write('')
-st.write('')
 
 pivot_df = pivot_df[selected_categories].copy()
 
