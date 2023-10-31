@@ -73,7 +73,7 @@ fig.update_layout(mapbox_zoom=7.5, width=800, height=600,
 st.plotly_chart(fig)
 
 # 월별 선택
-month = st.selectbox("📅월을 선택해주세요", ["1월", "2월", "3월", "4월", "5월", "6월", "7월", "8월", "9월", "10월", "11월", "12월"])
+month = st.selectbox("📅축제가 열리는 달을 선택해주세요", ["1월", "2월", "3월", "4월", "5월", "6월", "7월", "8월", "9월", "10월", "11월", "12월"])
 smonth = 1 if month=='1월' else 2 if month=='2월' else 3 if month=='3월' else \
     4 if month=='4월' else 5 if month=='5월' else 6 if month=='6월' else \
         7 if month=='7월' else 8 if month=='8월' else 9 if month=='9월' else \
