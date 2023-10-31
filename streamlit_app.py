@@ -86,7 +86,7 @@ fig, ax = plt.subplots(figsize=(10, 4))
 fes_name_count.plot.bar(stacked=True, color=colors, rot=0, fontsize=10, ax=ax)
 
 ax.set_xlabel('', fontsize=1)
-ax.set_ylabel('축제 개최 수', fontsize=10)
+ax.set_ylabel('축제 방문객수합계', fontsize=10)
 
 ax.set_title('2022년 전국 축제 방문객수합계 (단위:100명)', fontsize=20, pad=15)
 ax.legend(loc='upper left', fontsize=15)
