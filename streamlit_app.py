@@ -73,12 +73,10 @@ st.write('')
 #plt.grid(visible=False)
 #plt.tight_layout()
 
+
+
 for i in range(len(fes_name_count)):
-    fes_name_count[i] = fes_name_count[i] / 100
-
-
-
-
+    fes_name_count[i] = fes_name_count[i] / 1000
 
 
 colors = sns.color_palette('hls', len(fes_name_count))
@@ -88,7 +86,7 @@ fes_name_count.plot.bar(stacked=True, color=colors, rot=0, fontsize=10, ax=ax)
 ax.set_xlabel('', fontsize=1)
 ax.set_ylabel('축제 시도별 방문객수합계', fontsize=10)
 
-ax.set_title('2022년 전국 축제 방문객수합계 (단위:100명)', fontsize=20, pad=15)
+ax.set_title('2022년 전국 축제 방문객수합계 (단위:1000명)', fontsize=20, pad=15)
 ax.legend(loc='upper left', fontsize=15)
 ax.grid(visible=False)
 
